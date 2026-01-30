@@ -1,0 +1,51 @@
+html, body, #root {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --azul-principal: #1f3c68;
+  --azul-secundario: #2f5597;
+  --cinza-fundo: #f5f6f7;
+}
+
+body {
+  background-color: var(--cinza-fundo);
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  color: #212529;
+}
+
+/* App shell */
+#root {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Tipografia */
+h2 {
+  color: var(--azul-principal);
+  font-weight: 600;
+}
+
+p {
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+/* Botões */
+.btn-primary {
+  background-color: var(--azul-principal);
+  border-color: var(--azul-principal);
+}
+
+.btn-primary:hover {
+  background-color: var(--azul-secundario);
+  border-color: var(--azul-secundario);
+}
+
+.btn:hover {
+  text-decoration: underline;
+}
