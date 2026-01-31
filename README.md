@@ -59,3 +59,5 @@ O projeto foi desenvolvido considerando boas práticas de acessibilidade digital
 
 Considerações finais:
 Este projeto demonstra como tecnologias web modernas podem ser utilizadas para fortalecer a participação cidadã, promovendo maior transparência, inclusão e eficiência nos serviços públicos.
+
+Video da aplicação: http://youtube.com/watch?v=jrhmuwN-Liw
