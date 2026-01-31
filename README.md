@@ -1,16 +1,60 @@
-# React + Vite
+Participa DF – Ouvidoria Digital (PWA)
+Este projeto consiste no desenvolvimento de uma Progressive Web App (PWA) inspirada no sistema Participa DF, com o objetivo de ampliar o acesso e a inclusão dos cidadãos no registro de manifestações junto à Ouvidoria Pública.
+A aplicação permite que o usuário registre manifestações de forma simples, acessível e responsiva, possibilitando o envio de relatos em múltiplos formatos (texto, imagem, áudio e vídeo), com opção de anonimato e geração de protocolo para acompanhamento.
+O projeto foi desenvolvido no contexto de um desafio de inovação (hackathon), com foco em usabilidade mobile, acessibilidade digital e participação cidadã.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Funcionalidades:
+-Interface otimizada para dispositivos móveis
 
-Currently, two official plugins are available:
+-Registro de manifestações por tipo: Denúncia, Reclamação, Sugestão, Elogio e Solicitação
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+-Opção de envio anônimo
 
-## React Compiler
+-Coleta de dados do cidadão (nome, e-mail e telefone) quando o envio não é anônimo
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+-Envio de relato por texto
 
-## Expanding the ESLint configuration
+-Anexos opcionais de imagem, áudio e vídeo
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+-Geração automática de protocolo
+
+-Armazenamento das informações no Firebase Firestore
+
+-Estrutura preparada para funcionamento como PWA
+
+Tecnologias utilizadas:
+React.js
+Vite
+React Router DOM
+Bootstrap
+Firebase Firestore
+JavaScript (ES6+)
+HTML5
+CSS3
+Progressive Web App (PWA)
+
+Acesso à aplicação
+Aplicação hospedada em:
+http://participa-df-pwa-one.vercel.app/
+
+Observação: devido às limitações do plano gratuito do Firebase, os anexos (imagem, áudio e vídeo) são simulados no envio, sendo armazenados apenas os metadados.
+
+Como executar o projeto localmente
+Pré-requisitos:
+Node.js versão 18 ou superior e Git instalados.
+Clonar o repositório:
+git clone https://github.com/VictorRecalcatte/participa-df-pwa
+  cd participa-df-pwa
+Instalar as dependências:
+npm install
+
+Executar o projeto:
+npm run dev
+
+A aplicação ficará disponível em http://localhost:3000
+
+Acessibilidade:
+O projeto foi desenvolvido considerando boas práticas de acessibilidade digital, priorizando legibilidade, contraste adequado, navegação simples e experiência mobile-first, alinhado às diretrizes WCAG.
+
+Considerações finais:
+Este projeto demonstra como tecnologias web modernas podem ser utilizadas para fortalecer a participação cidadã, promovendo maior transparência, inclusão e eficiência nos serviços públicos.
