@@ -45,6 +45,7 @@ Node.js versão 18 ou superior e Git instalados.
 Clonar o repositório:
 git clone https://github.com/VictorRecalcatte/participa-df-pwa
 cd participa-df-pwa
+
 Instalar as dependências:
 npm install
 
